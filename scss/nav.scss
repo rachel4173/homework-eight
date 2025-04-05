@@ -1,0 +1,19 @@
+nav{
+    height: 70px;
+    background-color: #134337;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+
+    a{
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    a:hover{
+        text-decoration: underline;
+        color: #B4ABCF;
+    }
+}

@@ -1,0 +1,80 @@
+.contact-content{
+    width: 80%;
+    // background-color: pink;
+    min-height: 700px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 100px;
+
+    .contact-header{
+        text-align: center;
+        color: #6B6C8B;
+        margin-top: 50px;
+    }
+
+    .contact-holder{
+        width: 100%;
+        min-height: 600px;
+        // background-color: blue;
+        display: flex;
+        align-items: center;
+        
+        .contact-left{
+            width: 50%;
+            min-height: 500px;
+            // background-color: green;
+            background-image: url(../images/building.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .contact-right{
+            width: 50%;
+            height: 600px;
+            // background-color: indigo;
+            padding-top: 52px;
+
+            .contact-form{
+                width: 100%;
+                min-height: 439px;
+                // background-color: yellow;
+
+                input{
+                    width: 550px;
+                    height: 60px;
+                    border: none;
+                    margin-bottom: 21px;
+                    margin-left: 15px;
+                    padding: 0 20px;
+                    background-color:rgba(162, 164, 208, 0.8);
+                    font-size: 16px;
+                }
+
+                textarea{
+                    width: 550px;
+                    height: 180px;
+                    margin-left: 15px;
+                    border: none;
+                    background-color: rgba(162, 164, 208, 0.8);
+                    font-size: 16px;
+                    padding-left: 21px;
+                    padding-top: 21px;
+                }
+            }
+            .contact-button{
+                button{
+                    width: 167px;
+                    height: 60px;
+                    background-color:#491F10;
+                    color:#8d8fb6;
+                    font-size: 16px;
+                    border: none;
+                    margin-left: 15px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

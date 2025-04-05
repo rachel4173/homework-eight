@@ -1,0 +1,121 @@
+.easter-content{
+    width: 100%;
+    min-height: 2000px;
+    // background-color: pink;
+    margin: 0 auto;
+
+    .easter-hero{
+        width: 100%;
+        min-height: 450px;
+        img{
+            width: 100%;
+            // height: 450px;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+
+    .easter-middle-content{
+        width: 100%;
+        min-height: 500px;
+        // height: auto;
+        // background-color: lightblue;
+        margin: 0 auto;
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .easter-left{
+            width: 50%;
+            min-height: 300px;
+            font-size: 16px;
+            text-align: center;
+            color: #491f10;
+            padding-top: 20px;
+            padding-left: 50px;
+            padding-right: 20px;
+
+            .easter-sl{
+            font-size: 17px;
+            margin-top: 20px;
+            }
+
+            button{
+            border: none;
+            width: 250px;
+            height: 50px;
+            background-color: #9e9fc7;
+            color: #491f10;
+            font-size: 14px;
+            border-radius: 50px;
+            margin-top: 20px;
+            }
+        }
+
+        .easter-right{
+            width: 40%;
+            height: 100%;
+            // background-color: blue;
+            img{
+                width: 75%;
+                height: 100%;
+                object-fit: cover;            
+            }
+        }
+    }
+
+    .easter-gallery{
+        width: 100%;
+        height: 850px;
+        background-color: #9e9fc7;
+        margin-top: 150px;
+        padding-top: 35px;
+        margin-bottom: 100px;
+
+        .easter-picture-row{
+            width: 100%;
+            min-height: 370px;
+            // background-color: green;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            margin-bottom: 35px;
+
+            .easter-picture-holder{
+                width: 32%;
+                min-height: 320px;
+                background-color: #fff;
+                padding: 20px;
+                padding-bottom: 40px;
+
+                img{
+                    width: 100%;
+                    height: 280px;
+                    object-fit: cover;
+                }
+            }
+        }
+
+    }
+}
+
+@media (max-width: 970px) {
+    .easter-content{
+        height: 3500px;
+        .easter-gallery{
+            height: 2300px;
+            .easter-picture-row {
+                flex-direction: column;
+                flex: wrap;
+                .easter-picture-holder{
+                    margin-top: 20px;
+                }
+            } 
+        } 
+    }
+
+    footer{
+        margin-top: 50px;
+    }
+}
